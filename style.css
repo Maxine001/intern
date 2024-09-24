@@ -9,6 +9,7 @@ body{
  
 }
 
+
 .office-container{
   background: #fff;
 }
@@ -19,16 +20,19 @@ body{
 
 .header-text{
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
+  font: 18px medium;
+  color: #101010;
 }
 
 h1{
   color: rgb(16 60 143);
+  font: medium;
 }
 
 .office-space{
   color: #2362D7;
-  font-size: 18px;
+  font: 18px medium;
   margin: 28px 0px 8px;
 }
 
@@ -48,13 +52,14 @@ p{
 
 
 .invoice-text{
-  font-size: 14px;
+  font: 14px medium;
   color: #101010;
 }
 
 .invoice-num{
+  font: 14px medium;
   word-break: break-all;
-  color: #2362D7;
+  color: #4c4c4c;
   margin: 4px 0px 0px;
 }
 
@@ -65,14 +70,14 @@ p{
 
 .address{
   color: #787878;
-  font: 14px Inter-Medium;
+  font: 14px medium;
   margin: 4px 0px 0px;
 
 }
 
 .bill-text{
   word-break: break-all;
-  font-size: 16px;
+  font: 16px medium;
   margin: 4px 0px 0px;
 }
 
@@ -82,6 +87,7 @@ p{
   border-bottom: 1px solid rgb(195, 214, 231);
  
 }
+
 
 .details-one{
   text-align: start;
@@ -121,6 +127,8 @@ tr.second-row{
   border-bottom: 1px solid rgb(195, 214, 231);
 }
 
+
+
 table th{
   background: #2362d7;
   width: 100%;
@@ -129,11 +137,16 @@ table th{
   gap: 30px;
   text-align: start;
   padding:10px 15px;
+  font: 18px  medium;
+  font-weight: bold;
   
 }
 
 td{
+  color: #101010;
+  font: 18px medium;
   padding: 0 15px;
+  font-weight: 500;
 }
 
 .items{
